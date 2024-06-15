@@ -1,0 +1,81 @@
+{
+  "redirects": [
+    { 
+      "source": "/ch",
+      "destination": "/element-checklist/", 
+      "permanent": true
+    },
+    { 
+      "source": "/element-checklist",
+      "destination": "/element-checklist/", 
+      "permanent": true
+    },
+    { 
+      "source": "/ui",
+      "destination": "/viewz/", 
+      "permanent": true
+    },
+    { 
+      "source": "/td",
+      "destination": "/todo-app/", 
+      "permanent": true
+    },
+    { 
+      "source": "/",
+      "destination": "https://blog.az22c.top", 
+      "permanent": true
+    },
+    { 
+      "source": "/tags/shu",
+      "destination": "https://blog.az22c.top/tags/shu", 
+      "permanent": true
+    },
+    { 
+      "source": "/op",
+      "destination": "https://blog.az22c.top/2018/02/04/performance-optimized-summary", 
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/element-checklist/",
+      "destination": "https://element-checklist.vercel.app"
+    },
+    {
+      "source": "/element-checklist/:match*",
+      "destination": "https://element-checklist.vercel.app/:match*"
+    },
+    {
+      "source": "/todo-app/",
+      "destination": "https://todo-webapp-az22c.vercel.app"
+    },
+    {
+      "source": "/todo-app/:match*",
+      "destination": "https://todo-webapp-az22c.vercel.app/:match*"
+    },
+    {
+      "source": "/viewz/",
+      "destination": "https://az22c-viewz.vercel.app"
+    },
+    {
+      "source": "/viewz/hide/",
+      "destination": "https://az22c-viewz.vercel.app/hide/index.html"
+    },
+    {
+      "source": "/viewz/install/",
+      "destination": "https://az22c-viewz.vercel.app/install/index.html"
+    },
+    {
+      "source": "/viewz/fo/",
+      "destination": "https://az22c-viewz.vercel.app/fo/index.html"
+    },
+    {
+      "source": "/viewz/get-started/",
+      "destination": "https://az22c-viewz.vercel.app/get-started/index.html"
+    },
+    {
+      "source": "/viewz/:match*",
+      "destination": "https://az22c-viewz.vercel.app/:match*"
+    }
+  ]
+}

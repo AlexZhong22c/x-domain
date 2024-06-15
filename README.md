@@ -1,0 +1,1 @@
+用作白嫖vercel部署个人站点的x子域名。选择一些github pages同步一份到vercel部署。配置非常简单。
